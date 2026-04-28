@@ -1,0 +1,9 @@
+streamlit
+requests
+python-dotenv
+tldextract
+python-whois
+dnspython
+beautifulsoup4
+matplotlib
+pandas

@@ -1,0 +1,74 @@
+Return-Path: <no-reply@secure-paypa1.com>
+Received: from unknown (HELO mail.secure-paypa1.com) (185.199.108.153)
+    by mx.google.com with ESMTP id abc123
+    for <victim@example.com>; Tue, 28 Apr 2026 18:10:00 +0000
+Received: from compromised-host (unknown [45.67.89.10])
+    by mail.secure-paypa1.com with SMTP;
+    Tue, 28 Apr 2026 18:09:55 +0000
+From: "PayPal Support" <support@secure-paypa1.com>
+Reply-To: "Billing Dept" <billing@fraud-support-center.net>
+To: victim@example.com
+Subject: Urgent: Account Limitation Notice
+Date: Tue, 28 Apr 2026 18:10:00 +0000
+Message-ID: <phish123@secure-paypa1.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundary_main"
+
+--boundary_main
+Content-Type: multipart/alternative; boundary="boundary_alt"
+
+--boundary_alt
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Customer,
+
+Your PayPal account has been temporarily limited due to suspicious activity.
+
+To restore access, please verify your identity immediately:
+https://bit.ly/paypal-security-check
+
+Login attempt detected from IP: 185.199.108.153
+
+Failure to act will result in permanent suspension.
+
+Regards,
+PayPal Security Team
+
+--boundary_alt
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body>
+
+<p>Dear Customer,</p>
+
+<p>Your account has been <b>limited</b> due to unusual activity.</p>
+
+<p>
+<a href="http://secure-paypal-login-check.com/verify">
+https://www.paypal.com/security
+</a>
+</p>
+
+<p>
+Alternative access link:<br>
+<a href="http://185.199.108.153/paypal/login">
+https://paypal.com/login
+</a>
+</p>
+
+<p>
+If you do not act within 12 hours, your account will be permanently locked.
+</p>
+
+</body>
+</html>
+
+--boundary_alt--
+--boundary_main
+Content-Type: application/zip
+Content-Disposition: attachment; filename="Verification_Document.zip"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAIA...FAKEZIPDATA...==
+--boundary_main--

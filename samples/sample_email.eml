@@ -1,0 +1,59 @@
+From: "Microsoft Security" <alert@micros0ft-support.com>
+To: victim@example.com
+Subject: Urgent: Unusual Sign-in Activity Detected
+Date: Tue, 28 Apr 2026 14:20:00 +0000
+Message-ID: <alert1234@micros0ft-support.com>
+MIME-Version: 1.0
+Received: from unknown (HELO server) (185.199.108.153)
+Content-Type: multipart/mixed; boundary="boundary_main"
+
+--boundary_main
+Content-Type: multipart/alternative; boundary="boundary_alt"
+
+--boundary_alt
+Content-Type: text/plain; charset="UTF-8"
+
+Dear User,
+
+We detected an unusual sign-in attempt from a foreign IP address (185.199.108.153).
+
+To secure your account, please verify immediately:
+https://bit.ly/secure-login-verify
+
+Failure to act may result in account suspension.
+
+Regards,
+Microsoft Security Team
+
+--boundary_alt
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body>
+<p>Dear User,</p>
+
+<p>We detected <b>unusual sign-in activity</b> on your account.</p>
+
+<p>
+Click below to secure your account:<br>
+<a href="http://login-microsoft-secure-alert.com/verify">https://account.microsoft.com/security</a>
+</p>
+
+<p>
+Or use this backup link:<br>
+<a href="http://185.199.108.153/login">https://microsoft.com/login</a>
+</p>
+
+<p>If you do not verify within 24 hours, your account will be locked.</p>
+
+</body>
+</html>
+
+--boundary_alt--
+--boundary_main
+Content-Type: application/pdf
+Content-Disposition: attachment; filename="Account_Verification.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQKJcfs...FAKEPDFCONTENT...==
+--boundary_main--
