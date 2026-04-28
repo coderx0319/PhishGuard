@@ -2,10 +2,15 @@
 
 🚀 A full-stack cybersecurity tool for automated phishing email analysis using threat intelligence, OSINT, and risk scoring.
 
+
+## 📸 Dashboard Preview
+
+![PhishGuard Dashboard](assets/dashboard.png)
+
 ---
 
 ## 🌐 Live Demo
-👉 https://your-app.streamlit.app *(replace with your link)*
+👉 https://phishguardanalysisbysv.streamlit.app/
 
 ---
 
@@ -135,7 +140,7 @@ streamlit run app.py
 ## 👨‍💻 Author
 
 Shantanu Vedante  
-Cybersecurity Enthusiast  
+Cybersecurity Enthusiast / Msc Cyber Security Student 
 
 ---
 
